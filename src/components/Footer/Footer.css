@@ -1,0 +1,64 @@
+footer{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1980px;
+    margin-top: 1rem;
+}
+
+.footer-container{
+    width:89%;
+    margin: 0 auto;
+    background-color: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+.footer-list{
+    width: 25%;
+   
+    padding: 0.5rem;
+}
+
+.footer-list h4{
+    font-size: 1rem;
+    color: var(--white);
+}
+.footer-list li{
+    color: var(--white);
+    font-size: 0.8rem;
+}
+
+.footer-list li a{
+    color: var(--white);
+}
+
+.input-mail{
+    outline: none;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    border: 0;
+    padding: 0.2rem;
+}
+.input-btn{
+    background-color: var(--green);
+    color: var(--black);
+    padding: 0.2rem;
+    border-radius: 5px;
+    border: 0;
+    background-color: var(--white);
+}
+
+@media (max-width:600px) {
+    footer{
+        padding-bottom: 60px;
+    }
+    .footer-list{
+        width: 90%;
+    }
+    .newsletter{
+        width: 90%;
+    }
+}

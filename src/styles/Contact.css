@@ -1,0 +1,88 @@
+.contact{
+    margin-top: 100px;
+    width: 100%;
+    margin-inline:auto ;
+    max-width: 1980px;
+}
+
+.contact-container{
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.contact-address{
+    width: 40%;
+}
+.contact-col{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    margin-block: 1rem;
+}
+
+
+.contact-icon{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.address-info {
+    font-size: 0.8rem;
+}
+.address-info span{
+display: block;
+font-weight: 600;
+}
+.contact-col img{
+    width: 90%;
+    border-radius: 10px;
+    margin-block: 0.2rem;
+   
+}
+
+.contact-from{
+    width: 55%;
+    /* background-color: red; */
+}
+
+.form-container input,textarea{
+width: 90%;
+border-radius: 5px;
+padding: 0.3rem;
+border: 0.3px solid rgba(0, 0, 0, 0.37);
+outline: 0;
+}
+
+.submit{
+    background-color: var(--green);
+    color: var(--white);
+    cursor: pointer;
+}
+
+
+@media (max-width:600px) {
+    .contact-container{
+        width: 90%;
+        justify-content: center;
+    }
+    .contact-address{
+        width: 100%;
+    }
+    .contact-from{
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    .contact-from input,textarea{
+        width: 100%;
+    }
+}
